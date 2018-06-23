@@ -113,3 +113,32 @@ article{
 .fa{
   color: #FFE51F;
 }
+
+#clients{
+  position: absolute;
+  top: 1270px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.clients{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fa{
+  padding: 40px;
+}
+
+aside{
+  float: right;
+  color: #FFE51F;
+  font-size: 48px;
+  padding: 30px;
+  font-family: monospace;
+}
+
+footer{
+  
+}
