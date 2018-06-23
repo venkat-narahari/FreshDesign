@@ -1,14 +1,15 @@
 
 body{
   margin: 0 auto;
+  width: 100%;
 }
 header{
   background-color: #000000;
-  position:sticky;
-  position: -webkit-sticky;
+  z-index: 1;
+  position: fixed;
   top:0;
   width: 100%;
-  padding: 20px 30px;
+  padding: 20px 0px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -16,7 +17,7 @@ header{
 
 p.header-logo{
   display: inline;
-  padding: 10px 10px;
+  padding: 10px 30px;
   margin: 0;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -27,7 +28,7 @@ mark{
 }
 
 nav,ul,li{
-  padding: 0px 20px;
+  padding: 0px 15px;
   margin: 0px;
   float: right;
   display: inline;
@@ -44,4 +45,36 @@ a.header-nav-menu:hover{
   text-decoration: none;
   letter-spacing: 2px;
   color: #FFE51F;
+}
+
+
+section#landing{
+  width: 100vw;
+  background-color: #383632;
+  height: 100vh;
+  position: absolute;
+}
+
+.landing-background{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+.landing-description{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 1;
+}
+
+
+h1.landing-title,h2.landing-title{
+  z-index: 1000;
+  margin: 0;
+  padding: 20px 0px 20px 50px;
+  font-family: 'Gentium Book Basic',serif;
+  font-size: 400%;
+  color: #FFE51F;
+  font-weight: 900;
 }
