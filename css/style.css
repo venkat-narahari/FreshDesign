@@ -52,18 +52,19 @@ section#landing{
   width: 100vw;
   background-color: #383632;
   height: 100vh;
-  position: absolute;
+  position: relative;
 }
 
 .landing-background{
   min-width: 100%;
   min-height: 100%;
+  width: 100%;
   position: relative;
   z-index: 0;
 }
 .landing-description{
-  position: absolute;
-  top: 40%;
+  position: relative;
+  top: -500px;
   left: 0;
   z-index: 1;
 }
@@ -74,25 +75,25 @@ h1.landing-title,h2.landing-title{
   margin: 0;
   padding: 20px 0px 20px 50px;
   font-family: 'Gentium Book Basic',serif;
-  font-size: 400%;
+  font-size: 80px;
   color: #FFE51F;
   font-weight: 900;
 }
 
+
 #services{
-  position: absolute;
-  top: 700px;
+  position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: #383632;
-  padding: 20px;
+  padding: 20px 0px;
   justify-content: center;
 }
 
 article{
   background-color: #ADA9A0;
-  height: 80vh;
+  height: 80vh
   border-radius: 5px;
   padding: 20px;
   text-align: center;
@@ -103,6 +104,7 @@ article{
   font-family: monospace;
   font-weight: bolder;
   font-size: 48px;
+  color: #FFFFFF;
 }
 
 .article-body{
@@ -110,13 +112,12 @@ article{
   font-size: 24px;
 }
 
-.fa{
+.fa.services{
   color: #FFE51F;
 }
 
 #clients{
-  position: absolute;
-  top: 1270px;
+  position: relative;
   background-color: #000000;
   width: 100%;
 }
@@ -127,18 +128,56 @@ article{
   justify-content: center;
 }
 
-.fa{
-  padding: 40px;
+.fa.clients{
+  padding: 45px;
+  color: #FFE51F;
 }
 
 aside{
   float: right;
   color: #FFE51F;
-  font-size: 48px;
+  font-size: 54px;
   padding: 30px;
+  letter-spacing: 5px;
   font-family: monospace;
 }
 
 footer{
-  
+  position: relative;
+  background-color: #FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+
+.footer-list{
+  float: left;
+  padding: 10px 50px;
+  display: inline;
+}
+
+ul .footer-list{
+  display: inline-block;
+  text-align: center;
+}
+
+
+.fa{
+  padding: 8px;
+  color: #000000;
+}
+
+#copyright{
+  font-size: 16px;
+}
+
+.footer-links{
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.footer-links:hover{
+  letter-spacing: 2px;
 }
