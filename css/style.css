@@ -2,6 +2,8 @@ body{
   margin: 0 auto;
   width: 100%;
 }
+
+/*Header-nav-Styles*/
 header{
   background-color: transparent;
   z-index: 1;
@@ -46,7 +48,7 @@ a.header-nav-menu:hover{
   color: #FFE51F;
 }
 
-
+/*Landing-section-Styles*/
 section#landing{
   width: 100vw;
   background-color: #383632;
@@ -79,7 +81,7 @@ h1.landing-title,h2.landing-title{
   font-weight: 900;
 }
 
-
+/*Services-main-Style*/
 #services{
   position: relative;
   width: 100%;
@@ -132,6 +134,7 @@ article{
   color: #FFE51F;
 }
 
+/*Aside-Styles*/
 aside{
   float: right;
   color: #FFE51F;
@@ -140,7 +143,7 @@ aside{
   letter-spacing: 5px;
   font-family: monospace;
 }
-
+/*Footer-Styles*/
 footer{
   position: relative;
   background-color: #FFFFFF;
